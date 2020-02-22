@@ -16,19 +16,20 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .head-part{
     padding-top: 2%;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
-.header-top{
+.header-top, .second-part-top{
     float: left;
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
-.header-top img{
+.header-top img, .second-part-top img{
     width: 100%;
 }
 .hire-me{
