@@ -14,13 +14,17 @@ h1{
     font-size: 50px;
     padding-bottom: 20px;
 }
+h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
 h3{
     padding-bottom: 20px;
     font-size: 25px;
 }
 h4{
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .color_highlight{
     color: orange;
@@ -34,13 +38,13 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
-.header-top, .second-part-top, .third-part-top{
+.half-width{
     float: left;
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
-.header-top img, .second-part-top img{
+.half-width img{
     width: 100%;
 }
 .hire-me{
@@ -60,4 +64,35 @@ a.hire-me:hover{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third-part-divide{
+    box-shadow: gray 10px 10px 30px;
+    height: 80%;
+    padding: 25px 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+#border-left-one{
+    border-left: 10px solid;
+    border-image: linear-gradient(145deg, yellow, tomato);
+    border-image-slice: 1;
+}
+#border-left-two{
+    border-left: 10px solid;
+    border-image: linear-gradient(50deg,blue,green );
+    border-image-slice: 1;
+}
+.third-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.third-part-h3{
+    padding-bottom: 25px;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5px;
 }
