@@ -5,14 +5,25 @@
 body{
     font-family: 'Roboto Slab' ;
 }
+p{
+    text-align: justify;
+   line-height: 1.5;
+   color:dimgray;
+}
 h1{
     font-size: 50px;
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 .color_highlight{
     color: orange;
-}
-.welcome{
-    margin-bottom: 3%;
 }
 section{
     height: 500px;
@@ -23,7 +34,7 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
-.header-top, .second-part-top{
+.header-top, .second-part-top, .third-part-top{
     float: left;
     width: 40%;
     margin-left: 5%;
@@ -44,4 +55,9 @@ section{
 a.hire-me:hover{
     color: red;
     transition: ease 1s;
+}
+.second-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
